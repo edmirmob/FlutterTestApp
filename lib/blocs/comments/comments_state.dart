@@ -1,34 +1,5 @@
 import 'package:flutter_test_app/_all.dart';
 
-// enum CommentsStateStatus {
-//   loading,
-//   loaded,
-//   sharingLocation,
-//   sharingLocationSuccess,
-//   sharingLocationError,
-//   error,
-//   deletedSuccessfully,
-//   submitting,
-// }
-
-// class CommentsState {
-//   final CommentsStateStatus status;
-//   final Comments? eventDetails;
-
-//   CommentsState({
-//     required this.status,
-//     this.eventDetails,
-//   });
-
-//   CommentsState copyWith({
-//     CommentsStateStatus? status,
-//     Comments? eventDetails,
-//   }) =>
-//       CommentsState(
-//         status: status ?? this.status,
-//         eventDetails: eventDetails ?? this.eventDetails,
-//       );
-// }
 enum CommentsStateStatus { initial, loading, loaded, error }
 
 class CommentsState {
