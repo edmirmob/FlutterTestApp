@@ -1,5 +1,7 @@
 import 'package:flutter_test_app/_all.dart';
 
+late GlobalKey<NavigatorState> globalNavigatorKey;
+
 abstract class IToast {
   Future success({String? message, Widget? child, bool showIcon = true});
   Future validation({String? message, Widget? child});

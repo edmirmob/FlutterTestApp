@@ -1,7 +1,18 @@
 {
   "@@locale": "en",
   "appTitle": "Flutter Test App",
-  "@appTitle": {
-    "description": "The title of the application jeee"
-  }
+  "noContent": "No content.",
+  "noPhotos":"No photos",
+  "postDetails":"Post details",
+  "photosGallery":"Photos gallery",
+  "search":"Search..",
+  "limitPerPage":"Enter limit per page",
+  "showResult":"Show result",
+  "homePage":"Home page",
+  "photosPage":"Photos page",
+  "enterName":"Enter name"
+
+  
+
+
 }

@@ -1,13 +1,7 @@
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test_app/_all.dart';
-import 'package:flutter_test_app/service_providers/_all.dart';
 
 extension BuildContextExtensions on BuildContext {
-  // Localizer get localizer => Localizer.of(this);
-  // TranslationModel get translations => localizer.translations;
-  // Configuration get configuration => read<ConfigurationBloc>().state.configuration;
   ThemeData get theme => Theme.of(this);
-  // AppThemeData get appTheme => AppTheme.of(this);
 
   ScaffoldState get scaffold => Scaffold.of(this);
 
@@ -48,10 +42,4 @@ extension BuildContextExtensions on BuildContext {
   T validator<T>() => RepositoryProvider.of<T>(this);
 
   void unfocus() => FocusScope.of(this).unfocus();
-
-  // Future launchUrl(String url) async {
-  //   if (await canLaunch(url)) {
-  //     await launch(url);
-  //   }
-  // }
 }
